@@ -1,7 +1,7 @@
 // file name -> Employee.cpp
 
 //    ****************   EMPLOYEE MANAGEMENT SYSTEM   ****************
-//    ****************	  Author : Devmani Yadav     ****************
+//    ****************	  Author : codered-jack    ****************
 
 // Inclusion of standard header files
 #include<iostream.h>
@@ -204,7 +204,7 @@ void report()
 
 void box()
 {
-	for(int i=2,j=7 ; j<73 ; j++) // for printing อออออ
+	for(int i=2,j=7 ; j<73 ; j++) // for printing รรรรร
 	{
 		gotoxy(j,i);
 		cprintf("%c",205);
@@ -214,28 +214,28 @@ void box()
 	for (i=23,j=73 ; i>2 ; i--)
 	{
 		gotoxy(j,i);
-		cprintf("%c",186);          // for printing บ
+		cprintf("%c",186);          // for printing ยบ
 	}
 	gotoxy(73,24);
 	cprintf("%c",188); // for printing  1/4
 
-	for (i=24,j=7 ; j<73 ; j++)   // for printing อออออ
+	for (i=24,j=7 ; j<73 ; j++)   // for printing รรรรร
 	{
 		gotoxy(j,i);
 		cprintf("%c",205);
 	}
 	gotoxy(6,24);
-	cprintf("%c",200); // for printing ศ
-	for(i=3,j=6 ; i<24 ; i++)     // for printing บ
+	cprintf("%c",200); // for printing ร
+	for(i=3,j=6 ; i<24 ; i++)     // for printing ยบ
 	{
 		gotoxy(j,i);
 		cprintf("%c",186);
 	}
 	gotoxy(6,2);
-	cprintf("%c",201); // for printing ษ
+	cprintf("%c",201); // for printing ร
 	gotoxy(25,25);
 	textcolor(10);
-	cprintf("Developed By -> Devmani Yadav");
+	cprintf("Developed By -> codered-jack");
 	textcolor(14);
 }
 
